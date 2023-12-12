@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background: #999;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.nav{
+    background: #fff;
+    color: #333;
+    width: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 auto;
+
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+
+
+}
+a:hover{
+    background: #222;
+    color: #fff;
+    box-shadow: 5px 5px 10px #222;
+
+}
+ul.nav2 li{
+    background: #fff;
+    color: #333;
+    width: fit-content;
+    text-decoration: none;
+    border: 1px solid black;
+    z-index: 2;
+    display: inline-block;
+    padding: 10px;
+}
+ul.nav2 li:hover{
+    background: #222;
+    color: #fff;
+    box-shadow: 5px 5px 10px #222;
+
+   
+}
+h1{
+    margin: 15px auto;
+    border-bottom: 2px solid red;
+    width: fit-content;
+    padding: 5px;
+    font-size: 35px;
+}
+
+ul, ol{
+    margin-left: 0 auto;
+    text-align: center;
+}
+
+ul li, ol li{
+    margin: 15px auto;
+    text-align: left;
+
+}
+ol{
+    margin-bottom: 50px;
+}
+p{
+    text-align: center;
+}
+.center{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.img{
+    margin: 0 auto;
+    align-items: center;
+    border: 2px solid #555;
+    display: block;
+    height: auto;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 5px 15px 10px #222;
+
+}
+
+.btn{
+    position: bottom;
+    width: fit-content;
+    padding: 10px;
+    margin: 30px auto;
+    border: 1px solid #333;
+    columns: #222;
+    box-shadow: 5px 5px 10px #222;
+}
